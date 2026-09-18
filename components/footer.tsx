@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Footer() { return <footer className="mt-16 border-t bg-white"><div className="container-page flex flex-col gap-3 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between"><p>© {new Date().getFullYear()} AlumniConnect University.</p><div className="flex gap-5"><Link href="/about">About</Link><Link href="/events">Events</Link><Link href="/login">Member login</Link></div></div></footer>; }
